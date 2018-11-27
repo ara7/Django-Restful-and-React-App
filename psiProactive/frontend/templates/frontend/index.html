@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+	<!--<link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>-->
+	<!--<link rel="stylesheet" href="../../src/static/css/mystyle.css"> not working -->
+
+	<title>Pinnacle Proactive Support Log</title>
+		<style>
+			.navbar-item img {
+		 		max-height: 2.75rem;
+			}
+			div.box_around {
+				margin-top: 1px;
+				border: 1px solid grey;
+				padding: 5px 10px 10px 15px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<section class="hero">
+			<div class="hero-body">
+				<div class='container has-text-centered'>
+					<div class="box_around">
+					<div id='app' class="columns"></div>
+					<div id='react-search'></div>
+					<div id='paginate'></div>
+					<div class='filter' id='filter'></div>
+					<div id='customer-table'></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	{% load static %}
+	<script src='{% static 'frontend/main.js' %}'></script>
+</html>

@@ -1,0 +1,19 @@
+  <div className='column'>
+      <h2 className='subtitle'>
+        Showing {data.length} items
+      </h2>
+      <table className='table is-striped loadTable' align='center'>
+        <thead>
+          <tr>
+            {Object.entries(data[0]).map(el => <th key={key(el)}>{el[0]}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {data.map(el => (
+            <tr key={el.tasks}>
+              {Object.entries(el).map(el => <td key={key(el)}>{el[1]}</td>)}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>

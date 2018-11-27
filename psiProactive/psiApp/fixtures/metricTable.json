@@ -1,0 +1,112 @@
+[
+	{
+		 "model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "CPU Utilization",
+			"percentUtilized": "6%",
+			"used": "2.49",
+			"total": "2.49"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Memory Utilization",
+			"percentUtilized": "17%",
+			"used": "12",
+			"total": "122"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-C",
+			"percentUtilized": "54%",
+			"used": "32.6",
+			"total": "59.6"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-D",
+			"percentUtilized": "8%",
+			"used": "16",
+			"total": "199"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-L",
+			"percentUtilized": "42%",
+			"used": "4.15",
+			"total": "9.99"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-R",
+			"percentUtilized": "1%",
+			"used": "2",
+			"total": "399"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-S",
+			"percentUtilized": "74%",
+			"used": "73.7",
+			"total": "99.9"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-V",
+			"percentUtilized": "59%",
+			"used": "23.6",
+			"total": "39.9"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "1-22-2018",
+			"metricName": "Drive Space-Z",
+			"percentUtilized": "2%",
+			"used": "7",
+			"total": "299"
+		}
+	},
+	{
+		"model": "psiApp.metrics",
+		"fields": {
+			"machineName": "ICPVA",
+			"Date": "2-26-2018",
+			"metricName": "CPU Utilization",
+			"percentUtilized": "6%",
+			"used": "2.49",
+			"total": "2.49"
+		}
+	}
+]
